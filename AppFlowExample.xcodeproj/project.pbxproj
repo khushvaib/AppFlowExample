@@ -13,6 +13,15 @@
 		551AAA3326517A3C00E4290B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA3126517A3C00E4290B /* Main.storyboard */; };
 		551AAA3526517A3E00E4290B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA3426517A3E00E4290B /* Assets.xcassets */; };
 		551AAA3826517A3E00E4290B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA3626517A3E00E4290B /* LaunchScreen.storyboard */; };
+		551AAA4326517AA900E4290B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AAA4126517AA900E4290B /* LoginViewController.swift */; };
+		551AAA4426517AA900E4290B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA4226517AA900E4290B /* LoginViewController.xib */; };
+		551AAA4A26517AE400E4290B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AAA4826517AE400E4290B /* HomeViewController.swift */; };
+		551AAA4B26517AE400E4290B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA4926517AE400E4290B /* HomeViewController.xib */; };
+		551AAA5026517AF300E4290B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AAA4E26517AF300E4290B /* ProfileViewController.swift */; };
+		551AAA5126517AF300E4290B /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA4F26517AF300E4290B /* ProfileViewController.xib */; };
+		551AAA5426517C1700E4290B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AAA5326517C1700E4290B /* Helper.swift */; };
+		551AAA6F26517F4000E4290B /* LeadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AAA6D26517F4000E4290B /* LeadingViewController.swift */; };
+		551AAA7026517F4000E4290B /* LeadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551AAA6E26517F4000E4290B /* LeadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		551AAA3426517A3E00E4290B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		551AAA3726517A3E00E4290B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		551AAA3926517A3E00E4290B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551AAA4126517AA900E4290B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		551AAA4226517AA900E4290B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		551AAA4826517AE400E4290B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		551AAA4926517AE400E4290B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		551AAA4E26517AF300E4290B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		551AAA4F26517AF300E4290B /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		551AAA5326517C1700E4290B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		551AAA6D26517F4000E4290B /* LeadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingViewController.swift; sourceTree = "<group>"; };
+		551AAA6E26517F4000E4290B /* LeadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +78,36 @@
 				551AAA2D26517A3C00E4290B /* SceneDelegate.swift */,
 				551AAA2F26517A3C00E4290B /* ViewController.swift */,
 				551AAA3126517A3C00E4290B /* Main.storyboard */,
+				551AAA4026517A9C00E4290B /* Controllers */,
 				551AAA3426517A3E00E4290B /* Assets.xcassets */,
 				551AAA3626517A3E00E4290B /* LaunchScreen.storyboard */,
 				551AAA3926517A3E00E4290B /* Info.plist */,
 			);
 			path = AppFlowExample;
+			sourceTree = "<group>";
+		};
+		551AAA4026517A9C00E4290B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				551AAA4126517AA900E4290B /* LoginViewController.swift */,
+				551AAA4226517AA900E4290B /* LoginViewController.xib */,
+				551AAA4726517AB900E4290B /* Tab bar */,
+			);
+			path = Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		551AAA4726517AB900E4290B /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+				551AAA4826517AE400E4290B /* HomeViewController.swift */,
+				551AAA4926517AE400E4290B /* HomeViewController.xib */,
+				551AAA4E26517AF300E4290B /* ProfileViewController.swift */,
+				551AAA4F26517AF300E4290B /* ProfileViewController.xib */,
+				551AAA5326517C1700E4290B /* Helper.swift */,
+				551AAA6D26517F4000E4290B /* LeadingViewController.swift */,
+				551AAA6E26517F4000E4290B /* LeadingViewController.xib */,
+			);
+			path = "Tab bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551AAA5126517AF300E4290B /* ProfileViewController.xib in Resources */,
+				551AAA4426517AA900E4290B /* LoginViewController.xib in Resources */,
+				551AAA7026517F4000E4290B /* LeadingViewController.xib in Resources */,
 				551AAA3826517A3E00E4290B /* LaunchScreen.storyboard in Resources */,
+				551AAA4B26517AE400E4290B /* HomeViewController.xib in Resources */,
 				551AAA3526517A3E00E4290B /* Assets.xcassets in Resources */,
 				551AAA3326517A3C00E4290B /* Main.storyboard in Resources */,
 			);
@@ -137,6 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551AAA5026517AF300E4290B /* ProfileViewController.swift in Sources */,
+				551AAA6F26517F4000E4290B /* LeadingViewController.swift in Sources */,
+				551AAA5426517C1700E4290B /* Helper.swift in Sources */,
+				551AAA4A26517AE400E4290B /* HomeViewController.swift in Sources */,
+				551AAA4326517AA900E4290B /* LoginViewController.swift in Sources */,
 				551AAA3026517A3C00E4290B /* ViewController.swift in Sources */,
 				551AAA2C26517A3C00E4290B /* AppDelegate.swift in Sources */,
 				551AAA2E26517A3C00E4290B /* SceneDelegate.swift in Sources */,
